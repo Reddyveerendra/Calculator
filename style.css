@@ -1,0 +1,52 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10%;
+  background-color: cyan;
+}
+
+.main {
+  height: 650px;
+  width: 500px;
+  border: 10px solid rgb(255, 111, 0);
+}
+
+.screen {
+  height: 20%;
+  border: 0.01px solid black;
+}
+.five {
+  height: 15.4%;
+  border: 0.01px solid black;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  background-color: #2196f3;
+  padding: 1.5px;
+}
+.four {
+  height: 15.4%;
+  border: 0.01px solid black;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: #2196f3;
+  padding: 1.5px;
+}
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  font-size: 30px;
+  text-align: center;
+}
+div {
+  border: 0.01px;
+}
+#keyboard,
+#result {
+  font-size: 50px;
+  height: 72px;
+}
+.screen {
+  background-color: black;
+  color: aliceblue;
+}
